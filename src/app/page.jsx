@@ -1,7 +1,7 @@
-import { Category } from "./category/page";
-import { Container } from "./contenedor/page";
-import { Footer } from "./footer/page";
-import { MoreProducst } from "./moreProducts/page";
+import { Category } from "./components/category/page";
+import { Container } from "./components/contenedor/page";
+import { Footer } from "./components/footer/page";
+import { MoreProducst } from "./components/moreProducts/page";
 
 
 export default function Home() {

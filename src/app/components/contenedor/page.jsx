@@ -3,12 +3,12 @@ import NavBar from "../navBar/page.jsx";
 
 export function Container() {
     return (
-          <div id="container" className="w-full text-white flex relative">
+          <div id="container" className="text-white flex relative">
           <div className="bg-[#020016] w-[75%] ">
             <NavBar />
     
           <div className="flex flex-row ">
-            <Image src={"/images/caqui.png"} width={480} height={520} alt="Modelo" />
+            <Image src={"/images/caqui.png"} priority={false} width={480} height={520} alt="Modelo" />
     
               <div className="w-[420px] mx-auto my-10">
                 <p className="text-[54px] font-bold leading-none">Be Your Street <span className="text-[#FF0042]">Wear</span></p>
